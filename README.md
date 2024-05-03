@@ -1,27 +1,22 @@
-# PandapeProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+<img width="250" src="https://github.com/jonataspm/pandape-project/assets/87205813/f7a11ae5-c116-4c21-a212-278481c8da6a"/>
 
-## Development server
+# Projeto Pandapé
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+_Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) na versão 17.0.8._
 
-## Code scaffolding
+## Solicitado pela Pandapé
+- crie um mockup/home de um E-commerce para contratação de mão de obra temporária e efetiva, com pagamento online. Favor adicionar marca d´agua.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuração Inicial
 
-## Build
+Execute o comando `npm i` para baixar todas dependencias do projeto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Servidor de Desenvolvimento
 
-## Running unit tests
+Execute o comando `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Compilação
 
-## Running end-to-end tests
+Execute o comando `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
