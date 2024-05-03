@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+$yale-blue: #153F7Bff;
+$dim-gray: #6E6E6Eff;
+$air-superiority-blue: #86A0B9ff;
+$yinmn-blue: #294F87ff;
+$yale-blue-2: #0B3776ff;
+
+
+*{
+    font-family: 'Space Grotesk'!important;
+    box-sizing: border-box;
+    color: $yinmn-blue;
+    font-size: 16px;
+}
+
+html,body{
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.title1{ 
+    font-size: 54px !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    color: $yinmn-blue;
+}
+
+.title3{ 
+    font-size: 30px !important;
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+    color: $yinmn-blue;
+}
+
+
+.mat-mdc-unelevated-button.mat-primary {
+    background-color: $yinmn-blue !important;
+
+    .mdc-button__label{
+        color: white ;
+    }
+}
+
+

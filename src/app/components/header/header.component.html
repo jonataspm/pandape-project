@@ -1,0 +1,26 @@
+<div class="header-container">
+    <div class="left-section">
+        <img src="../../../assets/images/main-logo.svg" alt="">
+        <div>
+            <button mat-button [matMenuTriggerFor]="menuEnterprise">Empresa</button>
+            <mat-menu #menuEnterprise="matMenu">
+              <button mat-menu-item>Contrate Desenvolvedores</button>
+              <button mat-menu-item>Contrate Desiners</button>
+            </mat-menu>
+        </div>
+        <div>
+            <button mat-button [matMenuTriggerFor]="menuTalent">Candidato</button>
+            <mat-menu #menuTalent="matMenu">
+              <button mat-menu-item>Overview</button>
+              <button mat-menu-item>Vagas remotas</button>
+            </mat-menu>
+        </div>
+
+    </div>
+    <div class="right-section">
+        <button mat-button color="primary">Entrar</button>
+        <button mat-stroked-button color="primary">Vagas</button>
+        <button mat-flat-button color="primary">Contrate Talentos</button>
+    </div>
+</div>
+<mat-divider></mat-divider>

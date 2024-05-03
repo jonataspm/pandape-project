@@ -1,0 +1,76 @@
+$yale-blue: #153F7Bff;
+$dim-gray: #6E6E6Eff;
+$air-superiority-blue: #86A0B9ff;
+$yinmn-blue: #294F87ff;
+$yale-blue-2: #0B3776ff;
+
+
+.benefits-container{
+    width: 100%;
+    background-color: $yinmn-blue;
+    display: flex;
+    padding: 20px 34px;
+    flex-direction: column;
+
+
+    .title2{
+        font-size: 40px;
+        font-weight: 900;
+        color: white;
+        align-self: center;
+    }
+
+    .feature-title{
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.3;
+        margin: 0px;
+    }
+
+    .feature-text{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    
+    .feature{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        max-width: 800px;
+        padding: 35px 24px;
+        margin: 0px auto;
+        color: $yinmn-blue;
+
+        img{
+            width: 160px;
+        }
+    }
+
+    .feature-content{
+        width: 100%;
+        max-width: 1000px;
+        border: 1px solid rgb(230, 230, 230);
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 1s ease-in-out;
+    
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    .features-grid{
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        max-width: unset;
+    }
+
+}

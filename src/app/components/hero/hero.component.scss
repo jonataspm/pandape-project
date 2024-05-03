@@ -1,0 +1,33 @@
+.hero-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+
+        .buttons{
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    .right-section{
+       
+        img{
+            width: 600px;
+        }
+    }
+}
+
+
+.title1{
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1.1;
+}

@@ -1,0 +1,12 @@
+<div class="partner-container">
+    <h1 class="title3">Empresas que já utilizam Pandapé </h1>
+    <div class="list">
+        <ul class="partners-list">
+            <li *ngFor="let imagePath of imagePaths" class="list-partner">
+                <div class="partner-img">
+                    <img [src]="imagePath" alt="Imagem">
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

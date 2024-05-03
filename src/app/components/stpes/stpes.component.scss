@@ -1,0 +1,136 @@
+$yinmn-blue: #294F87ff;
+$step-indicator-size: 10px;
+
+.step-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: rgb(247, 247, 247);
+    color: rgb(51, 51, 51);
+    max-width: unset;
+
+    .step-grid{
+        max-width: 1200px;
+        display: grid;
+        grid:
+            "titles step-by"
+            "step-btn step-by" 1fr / 376px 1fr;
+        gap: 24px 36px;
+        margin: 0px auto;
+
+        .titles{
+            grid-area: titles;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            
+            span{
+                font-size: 16px;
+                line-height: 150%;
+            }
+        }
+
+        .step-by{
+            grid-area: step-by;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 32px;
+            color: rgb(51, 51, 51);
+            background: rgb(249, 249, 249);
+            overflow: hidden;
+            margin: 0px;
+
+            li{
+                position: relative;
+                list-style-type: none;
+                padding: 0px 0px 40px 42.36px;
+                border-left: 1px solid rgb(51, 51, 51);
+
+                section{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    h3,span{
+                        display: flex;
+                        -webkit-box-align: center;
+                        align-items: center;
+                        font-size: 28px;
+                        font-weight: 900;
+                        line-height: 1.5;
+                        margin: 0px; 
+
+                        &::before{
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: 0px;
+                            transform: translateX(-50%);
+                            width: $step-indicator-size;
+                            height: $step-indicator-size;
+                            background-color: $yinmn-blue;
+                            border-radius: 50%;
+                            border: 4px solid rgb(249, 249, 249);
+                            box-sizing: content-box;
+                        }
+
+                        img{
+                            display: flex;
+                            position: absolute;
+                            z-index: 1;
+                            left: 0px;
+                            transform: translateX(-50%);
+                            background-color: rgb(249, 249, 249);
+                            border: 4px solid rgb(249, 249, 249);
+                            
+                        }
+
+                        
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 150%;
+                    }
+                    sup{
+                        font-size: 14px;
+                        line-height: 150%;
+                        font-style: italic;
+                    }
+
+                    .step-s::after{
+                        transform: translateX(-50%) translateY(calc(-60% + $step-indicator-size / 2));
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: rgb(249, 249, 249);
+                        left: 0px;
+                        width: 2px;
+                        height: 100%;
+                    }
+                    .step-f::after{
+                        transform: translateX(-50%) translateY(calc(50% + $step-indicator-size / 2));
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: rgb(249, 249, 249);
+                        left: 0px;
+                        width: 2px;
+                        height: 100%;
+                    }
+                    
+                }
+
+                &::after{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: rgb(249, 249, 249);
+                    left: 0px;
+                    width: 2px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    
+
+}
