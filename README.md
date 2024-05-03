@@ -8,11 +8,15 @@ _Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-
 ## Solicitado pela Pandapé
 - crie um mockup/home de um E-commerce para contratação de mão de obra temporária e efetiva, com pagamento online. Favor adicionar marca d´agua.
 
+## Configuração Inicial
+
+Execute o comando `npm i` para baixar todas dependencias do projeto.
+
 ## Servidor de Desenvolvimento
 
-Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
+Execute o comando `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
 
 ## Compilação
 
-Execute `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`.
+Execute o comando `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`.
 
